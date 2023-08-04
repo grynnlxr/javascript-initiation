@@ -1,3 +1,6 @@
+// Non terminé
+
+
 // 1. Demander a l'utilisateur le nombre de notes a inserer
 const nombreNotes = Number(prompt("Combien de notes souhaitez-vous inserer?"));
 
@@ -16,6 +19,9 @@ console.log(notesCoursPhysique); //[12,13,14,15]
 // 3.Calculer la somme
 let somme = 0;
 for (let i = 0; i < notesCoursPhysique.length; i++) {
+ // do{
+  //  note = Number(prompt(`veuillez insérer`))
+  //}
   // i = 0,somme = somme +  notesCoursPhysique[0] => somme=0+12 = 12
   // i = 1, somme = somme + notesCoursPhysique[1] => somme=12+13 = 25
   // i = 2, somme = somme + notesCoursPhysique[2] => somme=25+14 = 39
@@ -33,3 +39,4 @@ console.log(`Moyenne : ${moyenne}`);
 
 // 2. Les valeurs du tableau doivent etre dans [0,20] pour que les notes soient valides
 // Sinon, on ne passe pas a l'etape suivante
+

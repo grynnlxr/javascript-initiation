@@ -14,8 +14,8 @@ Si par exemple il saisit comme premier nombre 3 et dernier nombre 7, on aura;
 3 x 6 = 18	4 x 6 = 24	…	8 x 6 = 48
 3 x 7 = 21	4 x 7 = 28	…	8 x 7 = 56  */
 
-let numberOne = Number(prompt("Entre le premier nombre pour les tables de multiplication :"));
-let lastNumber = Number(prompt("Entre le dernier nombre pour les tables de multiplication :"));
+let numberOne = Number(prompt("saisir un 1er entier :"));
+let lastNumber = Number(prompt("saisir un 2nd entier :"));
 
 if (isNaN(numberOne) || isNaN(lastNumber)) {
   alert("Il faut rentrer des chiffres. Recommence.");
@@ -25,7 +25,6 @@ for (let i = numberOne; i <= lastNumber; i++) {
   for (let j = numberOne; j <= lastNumber; j++) {
     let resultat = i * j;
     console.log(`${i} x ${j} = ${resultat}\t`);
-    //console.log(`${i} x ${j} = ${resultat}\t`);
   }
   console.log("\n");
 }

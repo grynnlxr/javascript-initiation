@@ -4,6 +4,8 @@ E4.
 et qui affiche ensuite les dix nombres suivants. 
 Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27. */
 
+// Mon code
+/*
 let nombreDepart = Number(prompt("Entre un nombre :"));
 
 if (isNaN(nombreDepart)) {
@@ -18,3 +20,10 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(`Les dix nombres suivants sont : ${nombreSuivants.join(" , ")}`);
 alert(`Les dix nombres suivants sont : ${nombreSuivants}`);  //  pour créer une séparation entre chaque ajout .join(", ")
+*/
+
+// CODE ALEXIS
+const start = Number(prompt(`un nombre de départ : `)) || 0;
+for (let i = 1; i <= 10; i ++) {
+console.log(start + i);
+}
